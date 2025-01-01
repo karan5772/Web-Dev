@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #cac9c9;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: #404040;
+        }
+        .card{
+            background-color: #ffffff;
+            border-radius: 6px;
+            justify-content: center;
+            padding: 30px;
+            width: 300px;
+        }
+        h1{
+            color: #0b1b6b;
+            text-align: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            border-radius: 6px;
+            margin-bottom: 15px;
+            padding: 12px;
+            border: 1px solid black;
+        }
+        button{
+            background-color: #0b1b6b;
+            color: #cac9c9;
+            border-radius: 6px;
+            padding: 7px;           
+        }
+        button:hover{
+            background-color: #35469b;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Login</h1>
+        <form>
+            <input type="email", placeholder="Email">
+            <input type="password", placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
