@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+</head>
+<style>
+    body {
+        background-color: #242424;
+        margin: 0;
+        padding: 0;
+    }
+    .aaa{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        padding: 20px;
+    }
+    .aaa a{
+        text-decoration: none;
+        padding: 5px 10px;
+        margin: 5px 10px;
+        color: aliceblue;
+        cursor: pointer;
+        position: relative;
+    }
+    .aaa a::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: antiquewhite;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+
+    }
+    .aaa a:hover::after{
+        transform: scaleX(1);
+    }
+    
+</style>
+<body>
+    <nav>
+        <ul class="aaa">
+            <li><a href="">About</a></li>
+            <li><a href="">Sponsor</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
