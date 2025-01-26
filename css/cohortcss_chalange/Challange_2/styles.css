@@ -1,0 +1,438 @@
+/* :root {
+    --primary-blue: #3b82f6;
+    --primary-blue-dark: #2563eb;
+    --gray-800: #1f2937;
+    --neutral-400: #9ca3af;
+    --neutral-900: #111827;
+  
+    --bg-dark: #111827;
+    --text-dark: #ffffff;
+    --border-dark: #374151;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .Switch{
+    display: block;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  #darkModeToggle{
+    width: 150px;
+    padding: 5px;
+    background-color: #2563eb;
+    font-size: medium;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+  }
+  
+  .hero {
+    margin: 0;
+    
+  }
+  
+  .hero-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .content-col{
+    padding: 0;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-col h1 {
+    font-size: 80px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+  }
+  
+  .content-col p {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    width: 450px;
+  }
+  
+  .cta-group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sr-only {
+  }
+  
+  .input-wrapper {
+    
+  }
+  
+  
+  input[type='text'] {
+    border: 2px solid blue; 
+    padding: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    width: 250px;
+    margin-right: 1px;
+    border-color: #80808017;
+  }
+  
+  .demo-button {
+    font-size: medium;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 170px;
+  }
+  
+  .demo-button:hover {
+  }
+  
+  .brands-section {
+    padding: 20px;
+    padding-left: 0;
+  }
+  
+  .trusted-by {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+  }
+  
+  .brand-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+  }
+  
+  .brand-logo {
+  }
+  
+  .image-col {
+    margin: 0;
+  }
+  
+  .hero-image {
+    width: 650px;
+    border-radius: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .hero {
+    }
+  
+    .content-col h1 {
+    }
+  
+    .cta-group {
+    }
+  
+    .demo-button {
+    }
+  
+    .input-wrapper {
+    }
+  
+    input[type='text'] {
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .content-col h1 {
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hero {
+    }
+  
+    .hero-grid {
+    }
+  
+    .content-col h1 {
+    }
+  
+    .cta-group {
+    }
+  
+    .brands-section {
+    }
+  
+    .image-col {
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .hero-grid {
+      gap: 3rem;
+    }
+  }
+  
+  .dark-mode-toggle {
+    background-color: #252742;
+    color: #ffffff;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #ffffff;
+    
+  }
+  
+  body.dark {
+    background-color: #252742;
+    color: #ffffff;
+  }
+  
+  .dark-mode-toggle {
+  }
+  
+  .dark-mode-toggle:hover {
+  }
+  
+  input[type='text'].dark {
+  }
+  
+  input[type='text']::placeholder {
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+   :root {
+    --primary-blue: #3b82f6;
+    --primary-blue-dark: #2563eb;
+    --gray-800: #1f2937;
+    --neutral-400: #9ca3af;
+    --neutral-900: #111827;
+  
+    /* Dark mode variables */
+    --bg-dark: #111827;
+    --text-dark: #ffffff;
+    --border-dark: #374151;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .Switch{
+    display: block;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  #darkModeToggle{
+    width: 150px;
+    padding: 5px;
+    background-color: #2563eb;
+    font-size: medium;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+  }
+  
+  .hero {
+    margin: 0;
+    
+  }
+  
+  .hero-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .content-col{
+    padding: 0;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-col h1 {
+    font-size: 80px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+  }
+  
+  .content-col p {
+    /* border: 2px solid blue;  */
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    width: 450px;
+  }
+  
+  .cta-group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sr-only {
+  }
+  
+  .input-wrapper {
+    
+  }
+  
+  
+  input[type='text'] {
+    border: 2px solid blue; 
+    padding: 15px;
+    border-radius: 10px;
+    font-size: medium;
+    width: 250px;
+    margin-right: 1px;
+    border-color: #80808017;
+  }
+  
+  .demo-button {
+    font-size: medium;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 170px;
+  }
+  
+  .demo-button:hover {
+  }
+  
+  .brands-section {
+    padding: 20px;
+    padding-left: 0;
+  }
+  
+  .trusted-by {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+  }
+  
+  .brand-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+  }
+  
+  .brand-logo {
+  }
+  
+  .image-col {
+    margin: 0;
+  }
+  
+  .hero-image {
+    width: 650px;
+    border-radius: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .hero {
+    }
+  
+    .content-col h1 {
+    }
+  
+    .cta-group {
+    }
+  
+    .demo-button {
+    }
+  
+    .input-wrapper {
+    }
+  
+    input[type='text'] {
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .content-col h1 {
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hero {
+    }
+  
+    .hero-grid {
+    }
+  
+    .content-col h1 {
+    }
+  
+    .cta-group {
+    }
+  
+    .brands-section {
+    }
+  
+    .image-col {
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .hero-grid {
+      gap: 3rem;
+    }
+  }
+  
+  .dark-mode-toggle {
+    background-color: #252742;
+    color: #ffffff;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #ffffff;
+    
+  }
+  
+  body.dark {
+    background-color: #252742;
+    color: #ffffff;
+  }
+  
+  .dark-mode-toggle {
+  }
+  
+  .dark-mode-toggle:hover {
+  }
+  
+  input[type='text'].dark {
+  }
+  
+  input[type='text']::placeholder {
+  }
+  
