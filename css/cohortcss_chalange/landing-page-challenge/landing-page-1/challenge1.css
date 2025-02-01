@@ -1,0 +1,136 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-image: url("./assets/chaigym.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+  /* Add styles for navbar */
+  display: flex;
+  background-color: #363636;
+  justify-content: space-between;
+  color: white;
+  padding: 18px;
+  
+}
+
+.logo {
+  /* Add styles for the logo */
+  text-align: center;
+  padding-left: 50px;
+  justify-content: center;
+  display: flex;
+}
+.logo .abc{
+  font-size: 20px;
+  text-decoration: solid;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.logo img {
+  /* Add styles for logo image */
+  border-radius: 50px;
+}
+
+.nav-links ul {
+  /* Add styles for nav links */
+  width: 400px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  /* Add hover styles for nav links */
+}
+
+/* Hero section styles */
+.hero {
+  /* Add styles for hero section */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.hero-content {
+  /* Add styles for hero content */
+  justify-items: center;
+  
+}
+
+.hero-content h1 {
+  /* Add styles for hero heading */
+  font-size: 50px;
+  padding-top: 90px;
+  
+  
+}
+
+.hero-content p {
+  /* Add styles for hero paragraph */
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+.cta-button {
+  /* Add styles for CTA button */
+  border: none;
+  background-color: rgb(255, 123, 0);
+  padding: 15px 30px;
+  border-radius: 7px;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.cta-button:hover {
+  /* Add hover styles for CTA button */
+}
+
+/* Features section styles */
+.features {
+  /* Add styles for features section */
+  margin: 10px 40px;
+  background-color: #000000d8;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature {
+  border: 2px solid rgb(255, 123, 0);
+  border-radius: 15px;
+  margin: 50px;
+  padding: 20px;
+  width: 300px;
+  justify-items: center;
+  /* Add styles for each feature block */
+}
+
+.feature h3 {
+  /* Add styles for feature heading */
+  color: rgb(255, 123, 0);
+}
+
+.feature p {
+  /* Add styles for feature paragraph */
+}

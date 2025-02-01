@@ -1,0 +1,122 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #e8e8e8;
+}
+
+.container {
+  /* Add your styles here */
+  justify-items: center;
+  padding: 20px;
+}
+
+
+
+h1 {
+  /* Add your styles here */
+  padding: 10px;
+}
+
+.pricing-heading {
+  /* Add your styles here */
+  align-content: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+} 
+
+.pricing-container {
+  /* Add your styles here */
+  display: flex;
+  justify-content: space-evenly;
+  height: 650px;
+  gap: 30px;
+  margin: 30px;
+}
+
+.pricing-card {
+  /* Add your styles here */
+  padding-top: 50px;
+  width: 380px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 4px rgba(137, 136, 136, 0.2);
+  background-color: #ffffff;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+  /* border: 2px solid orange ; */
+}
+
+.pricing-card.popular {
+  /* Add your styles here */
+  border: 2px solid #fb7311 ;
+}
+
+.popular-badge {
+  /* Add your styles here */
+  border-radius: 30px;
+  background-color: #fb7311;
+  color: white;
+  padding: 8px 16px;
+  width: 150px;
+  margin: 0 110px;
+  margin-top: -70px;
+  margin-bottom: 26.5px;
+}
+
+.price {
+  /* Add your styles here */
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.period {
+  /* Add your styles here */
+  margin: 20px;
+  color: #7f7979;
+}
+
+.features {
+  /* Add your styles here */
+  color: #474747;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 0;
+  font-size: 18px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.features li {
+  /* Add your styles here */
+  padding: 10px;
+}
+
+.subscribe-btn {
+  /* Add your styles here */
+  border: none;
+  border-radius: 30px;
+  background-color: #f88e42;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  font-size: 15px;
+}
+
+.subscribe-btn:hover {
+  /* Add your styles here */
+}
+
+.pcl {
+  height: 550px;
+}

@@ -1,0 +1,135 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  /* Add styles for the navbar */
+  display: flex;
+  background-color: #292929;
+  justify-content: space-between;
+  color: rgb(117, 251, 166);
+  padding: 12px;
+  align-items: center;
+}
+
+.logo {
+  /* Add styles for the logo */
+  text-align: center;
+  padding-left: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.logo img {
+  /* Add styles for the logo image */
+  border-radius: 50px;
+  border: 2px solid rgb(117, 251, 166);
+}
+
+.logo .abc{
+  font-size: 20px;
+  text-decoration: solid;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.menu a {
+  /* Add styles for the navigation links */
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.menu a:hover {
+  /* Add hover styles for navigation links */
+}
+
+/* Hero section styles */
+.hero {
+  /* Add styles for the hero section */
+  background-image: url("./assets/chaicohort.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-content {
+  /* Add styles for the hero content container */
+  justify-items: center;
+  padding: 70px;
+}
+
+.hero-content h1 {
+  /* Add styles for the hero heading */
+  color: rgb(35, 249, 114);
+  font-size: 2.3rem;
+}
+
+.hero-content p {
+  /* Add styles for the hero paragraph */
+  color: white;
+  margin: 20px;
+  font-size: 1.1rem;
+}
+
+.hero-content img {
+  /* Add styles for the image in the hero section */
+  border-radius: 15px;
+  border: 2px solid rgb(117, 251, 166);
+}
+
+.enroll-button {
+  /* Add styles for the enroll button */
+  background-color: rgb(117, 251, 166);
+  padding: 20px 60px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.enroll-button:hover {
+  /* Add hover styles for the enroll button */
+}
+
+/* Highlights section styles */
+.highlights {
+  /* Add styles for the highlights section */
+  background-color: #292929;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+}
+
+.highlight-card {
+  /* Add styles for each highlight card */
+  background-color: #444444;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  justify-items: center;
+}
+
+.highlight-card h3 {
+  /* Add styles for highlight card headings */
+  color: rgb(21, 250, 105);
+
+}
+
+.highlight-card p {
+  /* Add styles for highlight card paragraphs */
+  color: white;
+  justify-items: center;
+  text-align: center;
+}
