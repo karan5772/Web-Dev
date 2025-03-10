@@ -3,7 +3,7 @@ function setdate(){
     const date = document.getElementById("date");
     const now = new Date();
     
-    const hours = now.getHours()%12 || 12; //if it's 12 then it'll retirn 12
+    const hours = (now.getHours()%12 || 12).toString().padStart(2,"0"); //if it's 12 then it'll retirn 12
     const min = now.getMinutes().toString().padStart(2,"0");
     const sec = now.getSeconds().toString().padStart(2,"0");
     const ampm = now.getHours() >= 12 ? 'PM' : 'AM'; 
@@ -21,7 +21,7 @@ function setdate(){
     date.textContent = dateString;
 
 
-    
+
 }
 
 
