@@ -14,7 +14,7 @@ function setdate(){
         year: "numeric",
         month: "long",
         day: "numeric",
-      };
+    };
     
     const dateString = now.toLocaleDateString(undefined, options);
     //const dateString = `${now.getMonth() + 1}/${now.getDate()}/${now.getFullYear()}`;
